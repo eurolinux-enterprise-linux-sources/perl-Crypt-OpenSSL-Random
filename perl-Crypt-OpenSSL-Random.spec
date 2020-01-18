@@ -1,6 +1,6 @@
 Name:           perl-Crypt-OpenSSL-Random
 Version:        0.04
-Release:        19%{?dist}
+Release:        21%{?dist}
 Summary:        Perl interface to OpenSSL for Random
 License:        GPL+ or Artistic 
 Group:          Development/Libraries
@@ -56,6 +56,12 @@ rm -rf %{buildroot}
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.04-21
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.04-20
+- Mass rebuild 2013-12-27
+
 * Tue Nov 27 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.04-19
 - Update dependencies
 - Add perl_default_filter
